@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+
+section.container .cal-view {
+    background-color: #bfbfbf;
+    width: 400px;
+    height: 100px;
+    border: 2px dotted rgb(105, 206, 55);
+}
+section.container .cal-view p
+{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+#operator-btns {
+    background-color: rgb(60, 255, 0);
+}
+
+section.container .cal-buttons {
+
+    border: 1px solid  black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #bfbfbf;
+    padding: 10px 0;
+
+}
+
+section.container button {
+    border: 2px solid #8f5e5e;
+    border-style: dashed ;
+    padding: 20px 30px;
+    background-color: rgba(25, 99, 236, 0.543);
+    font-size: 20px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.15s ease-in;
+    color: rgb(32, 32, 247);
+}
+
+
+section.container .cal-buttons .operators {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+section.container .cal-buttons .digits {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+}
+
+#clear-screen
+{
+    background-color: rgb(214, 6, 6);
+    padding: 20px 25px;
+}
+
+
+
